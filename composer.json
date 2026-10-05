@@ -1,0 +1,79 @@
+{
+    "name": "tyhpdef/symfony-ux-twig-component-impl",
+    "description": "Implementation package for tyhpdef/symfony-ux-twig-component. Require tyhpdef/symfony-ux-twig-component, not this package.",
+    "keywords": [
+        "dev",
+        "static analysis",
+        "internal"
+    ],
+    "type": "library",
+    "license": "Apache-2.0",
+    "version": "3.4.0.0",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "tyhp": {
+            "interopContractVersion": 1,
+            "php-version": ">=8.2",
+            "require": {
+                "tyhpdef/php": "@dev",
+                "tyhpdef/psr-container": "@dev",
+                "tyhpdef/symfony-event-dispatcher": "@dev",
+                "tyhpdef/symfony-property-access": "@dev",
+                "tyhpdef/twig-twig": "@dev",
+                "tyhpdef/symfony-event-dispatcher-contracts": "@dev",
+                "tyhpdef/symfony-http-kernel": "@dev",
+                "tyhpdef/symfony-http-foundation": "@dev",
+                "tyhpdef/php-ext-session": "@dev",
+                "tyhpdef/php-ext-pdo": "@dev",
+                "tyhpdef/psr-log": "@dev",
+                "tyhpdef/symfony-error-handler": "@dev",
+                "tyhpdef/symfony-service-contracts": "@dev",
+                "tyhpdef/symfony-var-dumper": "@dev",
+                "tyhpdef/psr-event-dispatcher": "@dev",
+                "tyhpdef/symfony-property-info": "@dev",
+                "tyhpdef/symfony-type-info": "@dev",
+                "tyhpdef/symfony-string": "@dev",
+                "tyhpdef/psr-cache": "@dev",
+                "tyhpdef/symfony-translation-contracts": "@dev"
+            },
+            "package": {
+                "include": [
+                    "./_tyhpdef/*.tyhpdef",
+                    "./_tyhpdef/extensions/*.tyhpdef"
+                ],
+                "overlay": [
+                    "./_tyhpdef/overlays/stubs/*.tyhpdef",
+                    "./_tyhpdef/overlays/*.tyhpdef"
+                ]
+            },
+            "public": "tyhpdef/symfony-ux-twig-component"
+        }
+    },
+    "require": {
+        "php": ">=8.2",
+        "symfony/ux-twig-component": "3.4.0"
+    },
+    "require-dev": {
+        "tyhpdef/php": "@dev",
+        "tyhpdef/psr-container": "@dev",
+        "tyhpdef/symfony-event-dispatcher": "@dev",
+        "tyhpdef/symfony-property-access": "@dev",
+        "tyhpdef/twig-twig": "@dev",
+        "tyhpdef/symfony-event-dispatcher-contracts": "@dev",
+        "tyhpdef/symfony-http-kernel": "@dev",
+        "tyhpdef/symfony-http-foundation": "@dev",
+        "tyhpdef/php-ext-session": "@dev",
+        "tyhpdef/php-ext-pdo": "@dev",
+        "tyhpdef/psr-log": "@dev",
+        "tyhpdef/symfony-error-handler": "@dev",
+        "tyhpdef/symfony-service-contracts": "@dev",
+        "tyhpdef/symfony-var-dumper": "@dev",
+        "tyhpdef/psr-event-dispatcher": "@dev",
+        "tyhpdef/symfony-property-info": "@dev",
+        "tyhpdef/symfony-type-info": "@dev",
+        "tyhpdef/symfony-string": "@dev",
+        "tyhpdef/psr-cache": "@dev",
+        "tyhpdef/symfony-translation-contracts": "@dev"
+    }
+}
